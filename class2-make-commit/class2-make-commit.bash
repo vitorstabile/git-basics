@@ -9,3 +9,7 @@ git status
 git commit -m "another commit"
 
 git push
+
+## if your origin is in (main) not master, use the command below
+
+git push origin main
