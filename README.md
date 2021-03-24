@@ -7,6 +7,7 @@
 3. [Project Description](#projectdescription)
 4. [Chapter 1: Basic Useful Commands](#chapter1)
     - [Chapter 1 - Part 1: Create a Project](#chapter1part1)
+    - [Chapter 1 - Part 2: Make a Commit](#chapter1part2)
 7. [Usage](#usage)
 8. [Contributors](#contributors)
 9. [Contributing](#contributing)
@@ -77,6 +78,40 @@ git branch -M main
 
 ```
 git push -u origin main
+```
+
+#### <a name="chapter1part2"></a>Chapter 1 - Part 2: Make a Commit
+
+1. After you change anything in your project, make a git status:
+
+```
+git status
+```
+
+2. The red files is the files that is not sincronizer with your github
+
+3. Add the files to stage
+
+```
+git add .
+```
+4. Now, the files in green is in the stage
+
+```
+git status
+```
+
+5. Now, make a commit:
+
+```
+git commit -m "another commit"
+git push
+```
+
+6. If your origin is in (main) not master, use the command below:
+
+```
+git push origin main
 ```
 
 # Usage <a name="usage"></a>
