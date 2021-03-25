@@ -9,13 +9,13 @@
     - [Chapter 1 - Part 1: Create a Project](#chapter1part1)
     - [Chapter 1 - Part 2: Make a Commit](#chapter1part2)
     - [Chapter 1 - Part 3: Clone a Project](#chapter1part3)
-7. [Usage](#usage)
-8. [Contributors](#contributors)
-9. [Contributing](#contributing)
-10. [Roadmap](#roadmap)
-11. [To Do](#todo)
-12. [Contacts](#contacts)
-13. [License](#license)
+5. [Usage](#usage)
+6. [Contributors](#contributors)
+7. [Contributing](#contributing)
+8. [Roadmap](#roadmap)
+9. [To Do](#todo)
+10. [Contacts](#contacts)
+11. [License](#license)
 
 # Project Status <a name="projectstatus"></a>
 
