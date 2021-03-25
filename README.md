@@ -8,6 +8,7 @@
 4. [Chapter 1: Basic Useful Commands](#chapter1)
     - [Chapter 1 - Part 1: Create a Project](#chapter1part1)
     - [Chapter 1 - Part 2: Make a Commit](#chapter1part2)
+    - [Chapter 1 - Part 3: Clone a Project](#chapter1part2)
 7. [Usage](#usage)
 8. [Contributors](#contributors)
 9. [Contributing](#contributing)
@@ -112,6 +113,46 @@ git push
 
 ```
 git push origin main
+```
+
+#### <a name="chapter1part3"></a>Chapter 1 - Part 3: Clone a Project
+
+1. Make a "git bash here" in the main folder of the project
+
+2. Verify if your user is list in this terminal:
+
+```
+git config --list
+```
+
+3. If you don't have a user in your git terminal, make this command:
+
+```
+git config --global user.name "Your name"
+```
+
+```
+git config --global user.email "name@gmail.com"
+```
+
+4. Now, copy the adress of the project " Ex: https://github.com/vitorstabile/git-basics.git"
+
+5. Make this command with the copied adress:
+
+```
+git clone https://github.com/vitorstabile/git-basics.git
+```
+
+6. Now, change the folder to master
+
+```
+cd git-basics
+```
+
+7. To show all commits:
+
+```
+git log --oneline
 ```
 
 # Usage <a name="usage"></a>
