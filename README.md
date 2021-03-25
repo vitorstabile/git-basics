@@ -8,7 +8,7 @@
 4. [Chapter 1: Basic Useful Commands](#chapter1)
     - [Chapter 1 - Part 1: Create a Project](#chapter1part1)
     - [Chapter 1 - Part 2: Make a Commit](#chapter1part2)
-    - [Chapter 1 - Part 3: Clone a Project](#chapter1part2)
+    - [Chapter 1 - Part 3: Clone a Project](#chapter1part3)
 7. [Usage](#usage)
 8. [Contributors](#contributors)
 9. [Contributing](#contributing)
