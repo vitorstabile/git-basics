@@ -184,6 +184,7 @@ If so, list tasks / features that still need to be implemented in your applicati
 
 :memo: To Do 1 
 
+- Implement the basics concepts of Git.
 
 # Contacts <a name="contacts"></a>
 
