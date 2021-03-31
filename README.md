@@ -157,7 +157,7 @@ git log --oneline
 
 # Usage <a name="usage"></a>
 
-Using this like a bibliography if you want to remember any command with Git. For more commands, use this [Notes][notes-url] and this [PDF][pdf-url]
+Using this like a bibliography if you want to remember any command with Git. For more commands, use this [Notes][notes-url].
 
 # Contributors <a name="contributors"></a>
 
@@ -251,4 +251,3 @@ https://unsplash.com/
 [license-shield]: https://img.shields.io/badge/license-mit-blue.svg 
 [license-url]: https://github.com/vitorstabile/git-basics/blob/master/LICENSE.txt
 [notes-url]: https://github.com/vitorstabile/git-basics/blob/master/Git%20-%20Notes%20For%20Professionals.pdf
-[pdf-url]: https://github.com/vitorstabile/git-basics/blob/master/Apostila%20B%C3%A1sico%20Git%20e%20GitHub%20-%20Nelio%20Alves%20-%20Ed%202020.pdf
