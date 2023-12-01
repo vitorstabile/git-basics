@@ -155,6 +155,70 @@ cd git-basics
 git log --oneline
 ```
 
+#### <a name="chapter1part4"></a>Chapter 1 - Part 4: Generate a new SSH Key
+
+1. Open Git Bash.
+
+2. Paste the text below, replacing the email used in the example with your GitHub email address.
+
+```
+ssh-keygen -t ed25519 -C "your_email@example.com"
+```
+
+This creates a new SSH key, using the provided email as a label.
+
+When you're prompted to "Enter a file in which to save the key", you can press Enter to accept the default file location. Please note that if you created SSH keys previously, ssh-keygen may ask you to rewrite another key, in which case we recommend creating a custom-named SSH key. To do so, type the default file location and replace id_ALGORITHM with your custom key name.
+
+```
+Enter a file in which to save the key (/c/Users/YOU/.ssh/id_ALGORITHM):[Press enter]
+```
+
+3. At the prompt, type a secure passphrase.
+
+```
+> Enter passphrase (empty for no passphrase): [Type a passphrase]
+> Enter same passphrase again: [Type passphrase again]
+```
+
+4. To pring the correct way your SSH Key, make the command in **Windows Machine**
+
+```
+ssh-agent sh -c 'ssh-add; ssh-add -L'
+```
+
+in **Linux Machine**
+
+```
+cat ~/.ssh/id_rsa.pub
+```
+
+This will print something like this
+
+```
+ssh-ed25519 BBB3Hfncklediiwwjdfker your_email@example.com
+```
+
+5. Copy the generated key and go in Setting than in SSH and GPG Keys
+
+<br>
+
+<div align="center"><img src="img/githubsettings-w293-h811.png" width=293 height=811><br><sub>Settings - (<a href='https://github.com/vitorstabile'>Work by Vitor Garcia</a>) </sub></div>
+
+<br>
+
+<div align="center"><img src="img/githubsettingsssh-w302-h472.png" width=302 height=472><br><sub>Add SSH Keys - (<a href='https://github.com/vitorstabile'>Work by Vitor Garcia</a>) </sub></div>
+
+<br>
+
+
+6. Add your SSH Key
+
+<br>
+
+<div align="center"><img src="img/addssh-w1040-h662.png" width=1040 height=662><br><sub>Add SSH Keys - (<a href='https://github.com/vitorstabile'>Work by Vitor Garcia</a>) </sub></div>
+
+<br>
+
 # Usage <a name="usage"></a>
 
 Using this like a bibliography if you want to remember any command with Git. For more commands, use this [Notes][notes-url].
